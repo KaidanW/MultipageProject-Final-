@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li><a href="home.html" class="active">Home</a></li>
+        <li><a href="about.html">Info</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+    <h1>Home Page</h1>
+
+ <div class="carousel">
+      <input type="radio" name="carousel" id="slide1" checked>
+      <input type="radio" name="carousel" id="slide2">
+      <input type="radio" name="carousel" id="slide3">
+      <input type="radio" name="carousel" id="slide4">
+
+      <div class="slides">
+        <div class="slide s1"><img src="TaborBanner.png" alt="Exfilzone"></div>
+        <div class="slide s2"><img src="TaborBeach.png" alt="Suburbs"></div>
+        <div class="slide s3"><img src="TaborMall.png" alt="Dam"></div>
+        <div class="slide s4"><img src="TaborMatka.png" alt="SmugglingTunnels"></div>
+      </div>
+
+      <label for="slide4" class="prev slide1">&#10094;</label>
+      <label for="slide2" class="next slide1">&#10095;</label>
+
+      <label for="slide1" class="prev slide2">&#10094;</label>
+      <label for="slide3" class="next slide2">&#10095;</label>
+
+      <label for="slide2" class="prev slide3">&#10094;</label>
+      <label for="slide4" class="next slide3">&#10095;</label>
+
+      <label for="slide3" class="prev slide4">&#10094;</label>
+      <label for="slide1" class="next slide4">&#10095;</label>
+    </div>
+
+
+</body>
+</html>
