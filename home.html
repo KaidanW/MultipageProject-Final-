@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Home</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TACTICAL VR EXTRACTION</title>
+    <link rel="stylesheet" href="homeStyle.css">
     <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
-
 </head>
 <body>
 
@@ -17,34 +17,70 @@
     </ul>
 </nav>
 
-    <h1>Home Page</h1>
-
- <div class="carousel">
-      <input type="radio" name="carousel" id="slide1" checked>
-      <input type="radio" name="carousel" id="slide2">
-      <input type="radio" name="carousel" id="slide3">
-      <input type="radio" name="carousel" id="slide4">
-
-      <div class="slides">
-        <div class="slide s1"><img src="TaborBanner.png" alt="Exfilzone"></div>
-        <div class="slide s2"><img src="TaborBeach.png" alt="Suburbs"></div>
-        <div class="slide s3"><img src="TaborMall.png" alt="Dam"></div>
-        <div class="slide s4"><img src="TaborMatka.png" alt="SmugglingTunnels"></div>
-      </div>
-
-      <label for="slide4" class="prev slide1">&#10094;</label>
-      <label for="slide2" class="next slide1">&#10095;</label>
-
-      <label for="slide1" class="prev slide2">&#10094;</label>
-      <label for="slide3" class="next slide2">&#10095;</label>
-
-      <label for="slide2" class="prev slide3">&#10094;</label>
-      <label for="slide4" class="next slide3">&#10095;</label>
-
-      <label for="slide3" class="prev slide4">&#10094;</label>
-      <label for="slide1" class="next slide4">&#10095;</label>
+<section class="opening">
+    <div class="opening-content">
+        <h1 class="opening-title">TACTICAL VR EXTRACTION</h1>
+        <p class="opening-tagline">Suit up. Drop in. Hunt for intel. Extract before it's too late.</p>
+        <div class="opening-buttons">
+            <a href="#" class="btn-primary">Play Trailer</a>
+            <a href="#" class="btn-secondary">Learn More</a>
+        </div>
     </div>
+</section>
 
+
+<section class="carousel">
+  <input type="radio" name="slides" id="slide1" checked>
+  <input type="radio" name="slides" id="slide2">
+  <input type="radio" name="slides" id="slide3">
+  <input type="radio" name="slides" id="slide4">
+
+  <div class="slides">
+    <div class="slide s1"><img src="TaborBanner.png" alt="Tabor"></div>
+    <div class="slide s2"><img src="TaborBeach.png" alt="Beach"></div>
+    <div class="slide s3"><img src="TaborMall.png" alt="Mall"></div>
+    <div class="slide s4"><img src="TaborMatka.png" alt="Matka"></div>
+  </div>
+
+  <!-- Back Buttons-->
+  <label for="slide4" class="prev prev1">&#10094;</label>
+  <label for="slide1" class="prev prev2">&#10094;</label>
+  <label for="slide2" class="prev prev3">&#10094;</label>
+  <label for="slide3" class="prev prev4">&#10094;</label>
+
+  <!-- Forward Buttons -->
+  <label for="slide2" class="next next1">&#10095;</label>
+  <label for="slide3" class="next next2">&#10095;</label>
+  <label for="slide4" class="next next3">&#10095;</label>
+  <label for="slide1" class="next next4">&#10095;</label>
+</section>
+
+<section class="about-game">
+    <div class="about-content">
+
+            <h2>About Ghosts of Tabor</h2>
+        <p>
+            Ghosts of Tabor is the only extraction based VR FPS PVP and PVE survival game where you will 
+            have to use your wits, skills, and resources to survive. Inspired by games such as Escape from 
+            Tarkov and DayZ, the game features a variety of scenarios from exploring to looting and fighting. 
+            Will you survive long enough to make it out alive? 
+
+            <h4>Ghosts of Tabor is developed by a Veteran-owned game developer; Combat Waffles Studios, Inc based in Nokomis, Florida.</h4>
+        </p>
+        
+
+        <br>
+      
+
+            <h2>Game Backstory: </h2>
+        <p>
+            In 2042, Russian militant forces (Volk) staged a coup and gained control of the Russian capital. Soon, VOLK declared war
+             on all of Europe, while the West, believing Russian citizens were being subjected to experimentation, all countries and 
+             governments denied any knowledge of this information.
+        </p>
+
+    </div>
+</section>
 
 </body>
 </html>
